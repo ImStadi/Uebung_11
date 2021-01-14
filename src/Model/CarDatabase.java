@@ -1,3 +1,7 @@
+/********************
+ * Andre Stadler
+ * 14.01.2021
+ ********************/
 package Model;
 
 import java.util.ArrayList;
