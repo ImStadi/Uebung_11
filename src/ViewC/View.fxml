@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewC.Controller">
+   <children>
+      <Button fx:id="search" layoutX="14.0" layoutY="52.0" mnemonicParsing="false" onAction="#handle_patternSearch" prefHeight="44.0" prefWidth="132.0" text="Serach ..." />
+      <TextField fx:id="searchTxt" layoutX="9.0" layoutY="14.0" prefHeight="25.0" prefWidth="303.0" />
+      <Button fx:id="searchExact" layoutX="174.0" layoutY="52.0" mnemonicParsing="false" onAction="#handle_exactSearch" prefHeight="44.0" prefWidth="132.0" text="Search Exact ..." />
+      <TextArea fx:id="ausgabeTxt" layoutX="22.0" layoutY="104.0" prefHeight="272.0" prefWidth="278.0" />
+   </children>
+</AnchorPane>
